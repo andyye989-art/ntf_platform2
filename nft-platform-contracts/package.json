@@ -1,0 +1,38 @@
+{
+  "name": "artifact-nft-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for Digital Artifact NFT Platform",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:testnet": "hardhat run scripts/deploy.js --network goerli",
+    "deploy:mainnet": "hardhat run scripts/deploy.js --network mainnet",
+    "verify": "hardhat verify",
+    "clean": "hardhat clean",
+    "coverage": "hardhat coverage",
+    "gas-report": "REPORT_GAS=true hardhat test"
+  },
+  "keywords": [
+    "nft",
+    "artifact",
+    "blockchain",
+    "ethereum",
+    "solidity",
+    "smart-contracts"
+  ],
+  "author": "Manus AI",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.2",
+    "@openzeppelin/contracts": "^4.9.3",
+    "hardhat": "^2.17.1",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3"
+  }
+}
+
