@@ -1,0 +1,9 @@
+nft-platform-backend/venv/
+nft-platform-frontend/node_modules/
+nft-platform-frontend/dist/
+.env
+.env.local
+__pycache__/
+*.pyc
+
+
