@@ -7,3 +7,17 @@ __pycache__/
 *.pyc
 
 
+
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+/data/
+
+# Miniconda environment
+nft_backend/
+/home/ubuntu/miniconda/
+
+
+
